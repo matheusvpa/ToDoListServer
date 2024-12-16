@@ -1,0 +1,131 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.cabecalho {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 20px;
+}
+
+.cabecalho img {
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+}
+
+.cabecalho h1 {
+    font-size: 24px;
+    color: #333;
+}
+
+.entrada-tarefa {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.entrada-tarefa input[type="text"] {
+    width: 300px;
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.entrada-tarefa select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.entrada-tarefa button {
+    padding: 10px 15px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.entrada-tarefa button:hover {
+    background-color: #45a049;
+}
+
+.lista-tarefas {
+    list-style: none;
+    padding: 0;
+}
+
+.lista-tarefas li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    position: relative;
+}
+
+.prioridade-alta {
+    background-color: rgba(255, 0, 0, 0.3);
+}
+
+.prioridade-media {
+    background-color: rgba(255, 255, 0, 0.3);
+}
+
+.prioridade-baixa {
+    background-color: rgba(0, 255, 0, 0.3);
+}
+
+.botoes {
+    display: flex;
+    gap: 10px;
+}
+
+.botoes button {
+    border: none;
+    background: none;
+    cursor: pointer;
+    padding: 5px;
+}
+
+.rodape {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.rodape h1 {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.rodape a {
+    font-size: 14px;
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.rodape a:hover {
+    text-decoration: underline;
+}
+
+.img{
+    width: 15%;
+    eight: 15%;
+}

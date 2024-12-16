@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Tarefas</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/feather-icons"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="cabecalho">
+            <img src="logo.png" style="height: 35%; width: 10%;">
+            <h1>Use a lista de tarefas da Assistência Estudantil para organizar suas tarefas</h1>
+        </div>
+
+        <div class="entrada-tarefa">
+            <input type="text" id="campoTarefa" placeholder="Qual é a sua tarefa?">
+            <select id="selecaoPrioridade">
+                <option value="alta">Alta</option>
+                <option value="media">Média</option>
+                <option value="baixa">Baixa</option>
+            </select>
+            <button id="botaoAdicionar" onclick="adicionarTarefa()">Adicionar</button>
+        </div>
+
+        <ul class="lista-tarefas" id="listaTarefas"></ul>
+    </div>
+
+    <footer class="rodape">
+        <h1>Matheus Vinicius</h1>
+        <a href="https://github.com/matheusvpa/PWEB2024/tree/main/ToDoList">GitHub</a>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
